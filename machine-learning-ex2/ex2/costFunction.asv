@@ -24,7 +24,7 @@ m = length(y); % number of training examples
 h = sigmoid(X * theta);
 
 % calculating the cost
-% ((100*1).*((100*3)(3*1))) -> (100*1).*(100*1) - (100*1).*(100*1)
+% (())
 J = (1 / m) * sum((- y .* log(h)) - ((1 - y) .* log(1 - h)));
 
 % (100*3)(3*1) - (10*1)

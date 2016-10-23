@@ -1,0 +1,31 @@
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+
+Program paused. Press enter to continue.
+Cost at initial theta (zeros): 0.693147
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+
+Program paused. Press enter to continue.
+
+Local minimum possible.
+
+fminunc stopped because the final change in function value relative to 
+its initial value is less than the default value of the function tolerance.
+
+<stopping criteria details>
+
+Cost at theta found by fminunc: 0.203506
+theta: 
+ -24.932758 
+ 0.204406 
+ 0.199616 
+
+Program paused. Press enter to continue.
+For a student with scores 45 and 85, we predict an admission probability of 0.774321
+
+Train Accuracy: 40.000000
+
+Program paused. Press enter to continue.
+>> 

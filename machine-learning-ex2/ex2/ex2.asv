@@ -105,15 +105,11 @@ options = optimset('GradObj', 'on', 'MaxIter', 400);
 % functions with the @(t) ( costFunction(t, X, y) )
 %   - This creates a function, with argument t, which calls your costFunction. This allows 
 %     us to wrap the costFunction for use with fminunc.
-
-% fminunc will converge on the right optimization parameters and return the final values of 
-% the cost and theta. 
-
-% Notice that by using fminunc, you did not have to write any loops yourself, or set a 
-% learning rate like you did for gradient descent. This is all done by fminunc: you only 
-% needed to provide a function calculating the cost and the gradient
-
-
+% fminunc will converge on the right optimization parameters and return the nal values of the cost
+and . Notice that by using fminunc, you did not have to write any loops
+yourself, or set a learning rate like you did for gradient descent. This is all
+done by fminunc: you only needed to provide a function calculating the cost
+and the gradient
 [theta, cost] = fminunc(@(t)(costFunction(t, X, y)), initial_theta, options);
 
 % Print theta to screen
@@ -122,7 +118,6 @@ fprintf('theta: \n');
 fprintf(' %f \n', theta);
 
 % Plot Boundary
-% final theta value will then be used to plot the decision boundary on the training data
 plotDecisionBoundary(theta, X, y);
 
 % Put some labels 
