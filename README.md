@@ -6,3 +6,6 @@ The assignments are completed using Matlab.
 
 Assignment 1:
 Basics of Matlab, Batch Gradient Descent, and Normal Equations.
+
+Assignment 2:
+Logistic Regression
