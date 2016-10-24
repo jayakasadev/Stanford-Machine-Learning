@@ -9,3 +9,6 @@ Basics of Matlab, Batch Gradient Descent, and Normal Equations.
 
 Assignment 2:
 Logistic Regression
+
+Assignment 3:
+Multi-class Classification and Neural Networks
