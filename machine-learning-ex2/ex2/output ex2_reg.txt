@@ -1,0 +1,49 @@
+    LAMBDA = 0
+
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+
+Local minimum possible.
+
+fminunc stopped because the final change in function value relative to 
+its initial value is less than the default value of the function tolerance.
+
+<stopping criteria details>
+
+Train Accuracy: 88.983051
+>> 
+
+
+
+    LAMBDA = 100
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+
+Local minimum possible.
+
+fminunc stopped because the final change in function value relative to 
+its initial value is less than the default value of the function tolerance.
+
+<stopping criteria details>
+
+Train Accuracy: 61.016949
+>> 
+
+
+
+    LAMBDA = 1
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+
+Local minimum possible.
+
+fminunc stopped because the final change in function value relative to 
+its initial value is less than the default value of the function tolerance.
+
+<stopping criteria details>
+
+Train Accuracy: 83.050847
+>> 

@@ -89,8 +89,13 @@ initial_theta = zeros(size(X, 2), 1);
 % Set regularization parameter lambda to 1 (you should vary this)
 lambda = 1;
 
+% overfitting example
+% lambda = 0; % --> shoulld build a decision boundary that accounts for almost all examples
+% lambda = 100; % --> should build a decision boundary with too much regularization
+
 % Set Options
-options = optimset('GradObj', 'on', 'MaxIter', 400);
+% changed the max iterations from 400 to 800
+options = optimset('GradObj', 'on', 'MaxIter', 800);
 
 % Optimize
 [theta, J, exit_flag] = ...
