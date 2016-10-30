@@ -1,0 +1,10 @@
+Logistic Regression is a linear classifier. So it cannot form a more 
+complex hypothesis.
+
+It seems that the upward bound for accuracy with logistic regression is 
+around 95%. Increasing the number of iterations of fmincg does not 
+increase the accuracy. In fact, it causes a slight lose in accuracy.
+
+It, also, takes a while for the whole thing to run. 
+If it is slow for something basic like digit recognition, then it must be 
+very unweildy with a more complex classification problem.

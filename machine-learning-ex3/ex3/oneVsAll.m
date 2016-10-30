@@ -49,18 +49,27 @@ X = [ones(m, 1) X];
 %                 initial_theta, options);
 %
 
+%fmincg is more efficent than fminunc for dealing with a large bumber of
+%parameters
 
+% setting the options
+% got this from the example code above
+options = optimset('GradObj', 'on', 'MaxIter', 50);
 
+% for each of the labels or classes
+% 1 to K, where K is number of classes
+for k = 1 : num_labels
+    
+    % setting the initial theta set by using the kth row in the all_theta
+    % set
+    initial_theta = all_theta(k,:)';
+    
+    % Run fmincg to obtain the optimal theta
+    % This function will return theta and the cost
+    % y is a vector of labels from 1 to K
+    [all_theta(k,:)] = fmincg (@(t)(lrCostFunction(t, X, (y == k), lambda)), initial_theta, options);
 
-
-
-
-
-
-
-
+end
 
 % =========================================================================
 
-
-end

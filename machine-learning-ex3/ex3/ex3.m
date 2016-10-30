@@ -32,6 +32,13 @@ num_labels = 10;          % 10 labels, from 1 to 10
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
 
+% there are 5000 hand written training examples
+
+% each example is a 20x20 pixel  grayscale image of the digit, hence the 5000 x400 size matrix   -> X
+% each row is a digit
+
+% labels fro the training set   -> y
+
 load('ex3data1.mat'); % training data stored in arrays X, y
 m = size(X, 1);
 

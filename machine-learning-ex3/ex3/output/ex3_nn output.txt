@@ -1,0 +1,35 @@
+Loading and Visualizing Data ...
+Program paused. Press enter to continue.
+
+Loading Saved Neural Network Parameters ...
+
+Training Set Accuracy: 97.520000
+Program paused. Press enter to continue.
+
+Displaying Example Image
+
+Neural Network Prediction: 6 (digit 6)
+Program paused. Press enter to continue.
+
+Displaying Example Image
+
+Neural Network Prediction: 3 (digit 3)
+Program paused. Press enter to continue.
+
+Displaying Example Image
+
+Neural Network Prediction: 9 (digit 9)
+Program paused. Press enter to continue.
+
+Displaying Example Image
+
+Neural Network Prediction: 5 (digit 5)
+Program paused. Press enter to continue.
+
+Displaying Example Image
+
+Neural Network Prediction: 7 (digit 7)
+Program paused. Press enter to continue.
+Operation terminated by user during ex3_nn (line 86)
+ 
+>> 

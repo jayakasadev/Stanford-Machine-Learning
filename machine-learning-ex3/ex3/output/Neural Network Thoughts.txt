@@ -1,0 +1,21 @@
+Using parameters from a neural network that was already trained. The goal 
+is to  implement the feedforward propagation algorithm to use our weights 
+or parameters for prediction.
+
+Neural Network has 3 layers
+    input layer
+    hidden layer
+    output layer
+
+Since, the images are 20x20, this gives us 400 inut layer units, excluding 
+the extra bias unit which always outputs +1.
+
+
+Network parameters (Theta1, and Theta2) are already trained. They are 
+stored in ex3weights.mat.
+
+The parameters have dimensions that are sized for a neural network with 25 
+units in the second layer and 10 output units (corresponding to the 10 
+digit classes).
+
+This was much simpler to implement. It was just applying the formula described the class.
