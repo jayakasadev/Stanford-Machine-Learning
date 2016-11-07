@@ -10,7 +10,7 @@ function W = randInitializeWeights(L_in, L_out)
 %
 
 % You need to return the following variables correctly 
-W = zeros(L_out, 1 + L_in);
+% W = zeros(L_out, 1 + L_in);
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Initialize W randomly so that we break the symmetry while
@@ -18,15 +18,16 @@ W = zeros(L_out, 1 + L_in);
 %
 % Note: The first row of W corresponds to the parameters for the bias units
 %
-
-
-
-
-
-
-
-
-
 % =========================================================================
+
+% Randomly initialize the weights to small values
+% using this for symmetry breaking. Randomly selecting values for Theta
+% uniformly in the range of [- epsilon, epsilon]. This range of values
+% ensured that the parameters are kept small and makes the learning more
+% efficient.
+
+% this epsilon was given by the directions sheet
+epsilon_init = 0.12;
+W = rand(L_out, 1 + L_in) * 2 * epsilon_init * epsilon_init;
 
 end

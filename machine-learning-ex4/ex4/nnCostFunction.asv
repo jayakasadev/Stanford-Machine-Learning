@@ -147,13 +147,12 @@ Theta2_grad_reg = (lambda / m) * Theta2;
 
 % (25*401) = (25*401) + (25*401)
 % setting the first column to zero
-Theta1_grad = Theta1_grad + [zeros(size(Theta1_grad_reg, 1), 1) Theta1_grad_reg(:, 2:end)];
-% Theta1_grad = Theta1_grad + Theta1_grad_reg;
+% Theta1_grad = Theta1_grad + [zeros(size(Theta1_grad_reg, 1), 1) Theta1_grad_reg(:, 2:end)];
+Theta1_grad = Theta1_grad + Theta1_grad_reg(:, 2:end);
 
 % (10x26) = (10x26) + (10x26)
 % setting the first column to zero
 Theta2_grad = Theta2_grad + [zeros(size(Theta2_grad_reg, 1), 1) Theta2_grad_reg(:, 2:end)];
-% Theta2_grad = Theta2_grad + Theta2_grad_reg;
 
 %% =========================================================================
 

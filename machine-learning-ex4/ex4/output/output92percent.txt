@@ -1,0 +1,188 @@
+Loading and Visualizing Data ...
+Program paused. Press enter to continue.
+
+Loading Saved Neural Network Parameters ...
+
+Feedforward Using Neural Network ...
+Cost at parameters (loaded from ex4weights) 0.287629 
+(this value should be about 0.287629)
+
+Program paused. Press enter to continue.
+
+Checking Cost Function (w Regularization) ... 
+Cost at parameters (loaded from ex4weights) 0.383770 
+(this value should be about 0.383770)
+Program paused. Press enter to continue.
+
+Evaluating sigmoid gradient...
+Sigmoid gradient evaluated at [1 -0.5 0 0.5 1]
+  0.196612 0.235004 0.250000 0.235004 0.196612 
+
+Program paused. Press enter to continue.
+
+Initializing Neural Network Parameters ...
+
+Checking Backpropagation... 
+   -0.0093   -0.0093
+    0.0089    0.0089
+   -0.0084   -0.0084
+    0.0076    0.0076
+   -0.0067   -0.0067
+   -0.0000   -0.0000
+    0.0000    0.0000
+   -0.0000   -0.0000
+    0.0000    0.0000
+   -0.0000   -0.0000
+   -0.0002   -0.0002
+    0.0002    0.0002
+   -0.0003   -0.0003
+    0.0003    0.0003
+   -0.0004   -0.0004
+   -0.0001   -0.0001
+    0.0001    0.0001
+   -0.0001   -0.0001
+    0.0002    0.0002
+   -0.0002   -0.0002
+    0.3145    0.3145
+    0.1111    0.1111
+    0.0974    0.0974
+    0.1641    0.1641
+    0.0576    0.0576
+    0.0505    0.0505
+    0.1646    0.1646
+    0.0578    0.0578
+    0.0508    0.0508
+    0.1583    0.1583
+    0.0559    0.0559
+    0.0492    0.0492
+    0.1511    0.1511
+    0.0537    0.0537
+    0.0471    0.0471
+    0.1496    0.1496
+    0.0532    0.0532
+    0.0466    0.0466
+
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference 2.33553e-11
+
+Program paused. Press enter to continue.
+
+Checking Backpropagation (w Regularization) ... 
+   -0.0093   -0.0093
+    0.0089    0.0089
+   -0.0084   -0.0084
+    0.0076    0.0076
+   -0.0067   -0.0067
+   -0.0168   -0.0168
+    0.0394    0.0394
+    0.0593    0.0593
+    0.0248    0.0248
+   -0.0327   -0.0327
+   -0.0602   -0.0602
+   -0.0320   -0.0320
+    0.0249    0.0249
+    0.0598    0.0598
+    0.0386    0.0386
+   -0.0174   -0.0174
+   -0.0576   -0.0576
+   -0.0452   -0.0452
+    0.0091    0.0091
+    0.0546    0.0546
+    0.3145    0.3145
+    0.1111    0.1111
+    0.0974    0.0974
+    0.1187    0.1187
+    0.0000    0.0000
+    0.0337    0.0337
+    0.2040    0.2040
+    0.1171    0.1171
+    0.0755    0.0755
+    0.1257    0.1257
+   -0.0041   -0.0041
+    0.0170    0.0170
+    0.1763    0.1763
+    0.1131    0.1131
+    0.0862    0.0862
+    0.1323    0.1323
+   -0.0045   -0.0045
+    0.0015    0.0015
+
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference 2.25401e-11
+
+
+Cost at (fixed) debugging parameters (w lambda = 10) 0.576051 
+(this value should be about 0.576051)
+
+Program paused. Press enter to continue.
+
+Training Neural Network... 
+Iteration     1  Cost 3.467144e+00
+Iteration     2  Cost 3.288475e+00
+Iteration     3  Cost 3.260973e+00
+Iteration     4  Cost 3.260004e+00
+Iteration     5  Cost 3.259396e+00
+Iteration     6  Cost 3.258601e+00
+Iteration     7  Cost 3.254536e+00
+Iteration     8  Cost 3.221816e+00
+Iteration     9  Cost 3.145613e+00
+Iteration    10  Cost 3.055276e+00
+Iteration    11  Cost 2.979648e+00
+Iteration    12  Cost 2.739731e+00
+Iteration    13  Cost 2.510329e+00
+Iteration    14  Cost 2.476649e+00
+Iteration    15  Cost 2.292126e+00
+Iteration    16  Cost 2.193621e+00
+Iteration    17  Cost 2.063266e+00
+Iteration    18  Cost 1.950633e+00
+Iteration    19  Cost 1.836128e+00
+Iteration    20  Cost 1.743806e+00
+Iteration    21  Cost 1.624537e+00
+Iteration    22  Cost 1.562741e+00
+Iteration    23  Cost 1.475014e+00
+Iteration    24  Cost 1.438347e+00
+Iteration    25  Cost 1.425168e+00
+Iteration    26  Cost 1.363672e+00
+Iteration    27  Cost 1.344887e+00
+Iteration    28  Cost 1.332552e+00
+Iteration    29  Cost 1.305032e+00
+Iteration    30  Cost 1.263473e+00
+Iteration    31  Cost 1.211450e+00
+Iteration    32  Cost 1.164591e+00
+Iteration    33  Cost 1.111778e+00
+Iteration    34  Cost 1.059681e+00
+Iteration    35  Cost 1.028729e+00
+Iteration    36  Cost 1.006752e+00
+Iteration    37  Cost 9.126301e-01
+Iteration    38  Cost 9.009860e-01
+Iteration    39  Cost 8.935077e-01
+Iteration    40  Cost 8.765711e-01
+Iteration    41  Cost 8.523341e-01
+Iteration    42  Cost 8.289166e-01
+Iteration    43  Cost 8.167481e-01
+Iteration    44  Cost 8.138335e-01
+Iteration    45  Cost 7.988081e-01
+Iteration    46  Cost 7.844058e-01
+Iteration    47  Cost 7.765006e-01
+Iteration    48  Cost 7.463569e-01
+Iteration    49  Cost 7.130686e-01
+Iteration    50  Cost 7.005226e-01
+
+Program paused. Press enter to continue.
+
+Visualizing Neural Network... 
+
+Program paused. Press enter to continue.
+
+Training Set Accuracy 92.240000
+ 
