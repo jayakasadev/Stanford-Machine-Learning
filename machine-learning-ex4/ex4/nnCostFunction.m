@@ -117,7 +117,7 @@ delta3 = h - Y;
 % delta2 = Theta2' * delta3 .* sigmoidGradient(z2);
 
 % (5000x26)
-delta2 = (delta3 * Theta2);
+delta2 = delta3 * Theta2;
 % (5000x25) = (5000x25) .* (5000x25)
 delta2 = delta2(:, 2:end) .* sigmoidGradient(z2);
 
