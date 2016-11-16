@@ -50,17 +50,17 @@ error_val   = zeros(m, 1);
 %           
 %       end
 %
-
 % ---------------------- Sample Solution ----------------------
-
-
-
-
-
-
-
 % -------------------------------------------------------------
-
 % =========================================================================
 
+for i = 1:m
+    Xin = X(1:i,:);
+    Yin = y(1:i);
+    
+    theta = trainLinearReg(Xin, Yin, lambda);
+    
+    % have to set the theta to 0
+    error_train(i) = linearRegCostFunction(Xin, Yin, theta, 0);
+    error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
 end

@@ -7,6 +7,7 @@ function [X_poly] = polyFeatures(X, p)
 
 
 % You need to return the following variables correctly.
+%(m x p)
 X_poly = zeros(numel(X), p);
 
 % ====================== YOUR CODE HERE ======================
@@ -14,12 +15,9 @@ X_poly = zeros(numel(X), p);
 %               column of X contains the values of X to the p-th power.
 %
 % 
-
-
-
-
-
-
 % =========================================================================
 
+for i = 1:p
+    % (m x 1) = (m x 1).^i
+    X_poly(:,i) = X.^i;
 end
