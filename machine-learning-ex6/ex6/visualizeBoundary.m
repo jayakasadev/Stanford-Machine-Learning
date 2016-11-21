@@ -18,7 +18,10 @@ end
 
 % Plot the SVM boundary
 hold on
-contour(X1, X2, vals, [0 0], 'Color', 'b');
+% the provided code does not work. the problem is that the code says it
+% wants zero lines drawn ([0 0]). the solution is to set that array to [1 1]
+% contour(X1, X2, vals, [0 0], 'Color', 'b');
+contour(X1, X2, vals,[1, 1] , 'Color', 'b');
 hold off;
 
 end
