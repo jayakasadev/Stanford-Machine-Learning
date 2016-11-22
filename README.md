@@ -26,3 +26,6 @@ Support Vector Machines
 
 Assignment 7:
 K-Means Clustering and PCA
+
+Assignment 8:
+Anomaly Detection and Recommender Systems
